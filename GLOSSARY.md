@@ -20,7 +20,8 @@ _Avoid_: Order, transaction
 A Purchase of several Team Seats on one course, owned by the team admin who paid for them.
 
 **Team Seat**:
-One place on a Team Purchase, handed to a Learner by a coupon code. A Learner on a Team Seat has no Purchase of their own.
+One place on a Team Purchase, handed out as a coupon code. A Team Seat is claimed when a Learner redeems its coupon code; a Learner on a Team Seat has no Purchase of their own.
+_Avoid_: Redeemed seat (codes are redeemed, seats are claimed)
 
 ### Refunds
 
@@ -29,11 +30,11 @@ The owner of a Purchase's written ask to have it refunded, which is Requested un
 _Avoid_: Refund (for the request itself), Cancellation, Reversal, Chargeback
 
 **Refund**:
-The money returned to a learner when their Refund Request is approved. An approved Refund Request also ends the learner's enrollment in the course; a declined one refunds nothing.
+The money returned to the owner of a Purchase when its Refund Request is approved. Approval also takes back what was bought: the owner's enrollment in the course, or, for a Team Purchase, its unclaimed Team Seats. A declined Refund Request refunds nothing.
 _Avoid_: Reversal, Chargeback
 
 **Refund Eligibility**:
-Whether a Refund Request may be raised on a Purchase, judged at the moment it is raised: within the Refund Window, the Learner has watched under two hours and completed under half the lessons, and — for a Team Purchase — no Team Seat has been claimed. Watch time and completion count across all of a Learner's Purchases of the course.
+Whether a Refund Request may be raised on a Purchase, judged at the moment it is raised: within the Refund Window, the Purchase's owner has watched under two hours and completed under half the lessons of the course, and — for a Team Purchase — no Team Seat has been claimed. Watch time and completion are the owner's own, counted across all their Purchases of the course.
 
 **Refund Window**:
 The fourteen calendar days after a Purchase, inclusive of the fourteenth day, during which a Refund Request may be raised.
